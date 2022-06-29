@@ -3,7 +3,7 @@
 Module 2 Challenge – Excel VBA Scripting: The VBA of Wall Street
 
 Objective:
-This project will apply the skills learnt in Module 2 – VBA Scripting for Excel. The skills will establish the foundation of programming logic formulation. This project will be submitted to GitHub/Gitlab. This will help developed the skills for project deployment and versioning.
+This project will apply the skills learnt in Module 2 – VBA Scripting for Excel. The skills will establish the foundation of programming logic formulation. 
 
 Project Details:
 This project will analyze the stock market data using VBA script. The stocks data were saved in multiple worksheets with one sheet for each year. Each sheet has multiple rows containing the following stocks daily trading data:
@@ -31,7 +31,8 @@ The script will apply the conditional formatting to the data in “Yearly Change
 The script will run on all sheets containing the stocks yearly data. It will create the two summary tables mentioned above.
 
 Project Submission:
-The project will be submitted by uploading the following files to GitHub/Gitlab repository called “VBA-challenge”:
-1.	Screenshots of the results in .png format
+The following files will be uploaded to GitHub repository called “VBA-challenge”. A shareable link of the GitHub repository will be submitted to bootcamp spot site.
+1.	Screenshots of the results in .png format, 1 for each year of data showing a portion of the result
 2.	VBA script file in .vbs format
 3.	README file in .md format
+
