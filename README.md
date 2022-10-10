@@ -24,6 +24,6 @@ The script creates an additional summary table containing following data for eac
 
 Sample summary report: 
 
-<img src="2020_Summary.png.png" width="900"> 
+<img src="2020_Summary.png" width="900"> 
 
 
