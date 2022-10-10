@@ -1,7 +1,7 @@
 # Wall Street Data Analysis
 Author: Rosie Gianan, gianr00@gmail.com
 
-Build With: Excel, VBA 
+Build with: Excel, Visual Basic Application(VBA)  
 
 ## Objective:
 Analyze the generated daily stock market data from 2018 to 2020 saved in multiple excel worksheets with one sheet for each year. Generate a report showing the following for each ticket symbols:
