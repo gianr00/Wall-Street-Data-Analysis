@@ -1,38 +1,29 @@
-# VBA-challenge
+# Wall Street Data Analysis
+Author: Rosie Gianan, gianr00@gmail.com
 
-Module 2 Challenge – Excel VBA Scripting: The VBA of Wall Street
+Build With: Excel, VBA 
 
-Objective:
-This project will apply the skills learnt in Module 2 – VBA Scripting for Excel. The skills will establish the foundation of programming logic formulation. 
+## Objective:
+Analyze the generated daily stock market data from 2018 to 2020 saved in multiple excel worksheets with one sheet for each year. Generate a report showing the following for each ticket symbols:
+-    The yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
+-    The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
+-    The total stock volume of the stock.
+-    Display the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume". 
 
-Project Details:
-This project will analyze the stock market data using VBA script. The stocks data were saved in multiple worksheets with one sheet for each year. Each sheet has multiple rows containing the following stocks daily trading data:
-1.	ticker symbol – stocks ticker symbol sorted in ascending order
-2.	trading date – trading date sorted in ascending order
-3.	open price 
-4.	highest price 
-5.	lowest price 
-6.	closing price 
-7.	total volume
+## Solution:
+Create a Visual Basic Application (VBA) script that run on all sheets containing the stocks yearly data. The script loops though the list of stocks data and create a summary table containing the following data for each year:
+1.    Ticker     – unique list of ticker symbols
+2.    Yearly Change – Price yearly change from the open price of the first trading date to the close price of the last trading date for each unique ticker symbols. 
+3.    Percent Change – Percent price yearly change from the open price of the first trading date to the close price of the last trading date for each unique ticker symbols. 
+4.    Total Stock Volume – Total stock volume for each unique ticker symbols
 
-The script will loop though the list of stocks data and will create a summary table on the same worksheet as the raw data. The summary table will contain the following data for each year:
-1.	Ticker 		– unique list of ticker symbols
-2.	Yearly Change – Price yearly change from the open price of the first trading date to the close price of the last trading date for each unique ticker symbols. The value must be in number format with 2 decimal places.
-3.	Percent Change – Percent price yearly change from the open price of the first trading date to the close price of the last trading date for each unique ticker symbols. The value must be in percent format with 2 decimal places i.e., “00.00%”.
-4.	Total Stock Volume – Total stock volume for each unique ticker symbols
+The script creates an additional summary table containing following data for each year:
+1.    Greatest % Increase – The ticker symbol with the greatest % increase value for the year 
+2.    Greatest % Decrease – The ticker symbol with the greatest % decrease value for the year
+3.    Greatest Total Volume – The ticker symbol with the greatest total volume for the year
 
-The script will create an additional summary table on the same worksheet as the raw data. The summary table will contain the following data for each year:
-1.	Greatest % Increase – The ticker symbol with the greatest % increase value for the year 
-2.	Greatest % Decrease – The ticker symbol with the greatest % decrease value for the year
-3.	Greatest Total Volume – The ticker symbol with the greatest total volume for the year
+Sample summary report: 
 
-The script will apply the conditional formatting to the data in “Yearly Change” and “Percent Change” column in the first summary table. It will highlight the positive change in green and the negative change in red.
+<img src="2020_Summary.png.png" width="900"> 
 
-The script will run on all sheets containing the stocks yearly data. It will create the two summary tables mentioned above.
-
-Project Submission:
-The following files will be uploaded to GitHub repository called “VBA-challenge”. A shareable link of the GitHub repository will be submitted to bootcamp spot site.
-1.	Screenshots of the results in .png format, 1 for each year of data showing a portion of the result
-2.	VBA script file in .vbs format
-3.	README file in .md format
 
